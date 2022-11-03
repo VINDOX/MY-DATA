@@ -79,6 +79,23 @@ public class FIRST {
       else{
        
         System.out.println("you re translated to LOWERCASE" +" "+ peter.toLowerCase());
-    }}}
+    }
+    
+    
+    //COMPARE ENTERED AND DISPLAY SMALL ONE
+    String wordA=JOptionPane.showInputDialog("ENTER ANY THING");
+   
+  String wordB=JOptionPane.showInputDialog("ENTER ANOTHER ONE");
+   if(wordA.compareTo(wordB)<0){
+       System.out.println(wordA);
+       System.out.println(wordB);
+   }
+   else
+           {
+           System.out.println(wordA);
+           System.out.println(wordB);
+           }
+   
+    }}
     
 
